@@ -1,0 +1,43 @@
+body {
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+h1 {
+    text-transform: uppercase;
+    margin: 10px 0;
+
+}
+p {
+    font-size: 20px;
+    color: black;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px ;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: teal;
+
+}
+
+video {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid red;
+    object-fit: cover;
+}
+
+.tarjeta {
+    background-color: purple;
+    border: 2px solid black;
+    text-align: center;
+}
